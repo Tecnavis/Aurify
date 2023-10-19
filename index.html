@@ -17,6 +17,19 @@
 	
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/style.css">
+	<style>
+		/* Add this CSS to your stylesheets */
+.item {
+    height: 300px; /* Set the desired height for all carousel items */
+    overflow-y: auto; /* Use 'auto' to add a vertical scrollbar if content exceeds the specified height */
+}
+
+/* Optional: Adjust the padding for the testimony-wrap class for better spacing */
+.testimony-wrap {
+    padding: 20px;
+}
+
+	</style>
 </head>
 <body>
 	
@@ -31,9 +44,11 @@
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="work.html" class="nav-link">Work</a></li>
-					<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+					<li class="nav-item"><a href="services.html" class="nav-link">services</a></li>
+					<!-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
 					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+					<p class="mb-0"><a href="#" class="btn btn-primary py-md-3 py-2 px-2 px-md-4">DEMO</a></p>
+
 				</ul>
 			</div>
 		</div>
@@ -47,14 +62,19 @@
 				<div class="container">
 					<div class="row no-gutters slider-text js-fullheight align-items-center">
 						<div class="col-md-12 ftco-animate">
-							<div class="absolute">
+							<!-- <div class="absolute">
 								<h4 class="number" data-number="400">0</h4>
 								<p>More than a hundred successful projects</p>
-							</div>
+							</div> -->
 							<div class="text">
-								<h1 class="mb-4">We Create Modern &amp; Minimal Website</h1>
-								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-								<p class="mb-0"><a href="#" class="btn btn-primary py-md-3 py-2 px-2 px-md-4">Start Project</a></p>
+								<h1 class="mb-4">Aurify
+									Management Solutions</h1>
+								<p>An effective solution for managing customer relationships
+									 is vital for your Aurify trading operation and crucial 
+									 for the success of your business, as it guarantees that
+									  you do not alienate your traders, partners, investors, 
+									  and clients.</p>
+								<p class="mb-0"><a href="form.html" class="btn btn-primary py-md-3 py-2 px-2 px-md-4">Grab booklet</a></p>
 							</div>
 						</div>
 						<a href="https://vimeo.com/45830194" class="img-video popup-vimeo d-flex align-items-center justify-content-center">
@@ -69,14 +89,16 @@
 				<div class="container">
 					<div class="row no-gutters slider-text js-fullheight align-items-center">
 						<div class="col-md-12 ftco-animate">
-							<div class="absolute">
+							<!-- <div class="absolute">
 								<h4 class="number" data-number="21">0</h4>
 								<p>Years of Experienced</p>
-							</div>
+							</div> -->
 							<div class="text">
-								<h1 class="mb-4">We Create Modern &amp; Minimal Website</h1>
-								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-								<p class="mb-0"><a href="#" class="btn btn-primary py-md-3 py-2 px-2 px-md-4">Explore Projects</a></p>
+								<h1 class="mb-4">Aurify
+									Management Solutions</h1>
+								<p>A robust customer relationship management system is essential for Aurify's success. It ensures positive interactions
+									 with traders, partners, investors, and clients, preventing alienation and fostering business growth.</p>
+								<p class="mb-0"><a href="#" class="btn btn-primary py-md-3 py-2 px-2 px-md-4">Grab booklet</a></p>
 							</div>
 						</div>
 						<a href="https://vimeo.com/45830194" class="img-video popup-vimeo d-flex align-items-center justify-content-center">
@@ -88,14 +110,14 @@
 		</div>
 	</section>
 
-	<section class="ftco-section">
+	<section class="ftco-section" style="margin-top:-100px;">
 		<div class="container">
 			<div class="row justify-content-center no-gutters">
 				<div class="col-md-12 heading-section text-center ftco-animate mb-5">
-					<h2 class="mb-2">About us</h2>
+					<h2 class="mb-2"> Characteristics</h2>
 				</div>
 			</div>
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-md d-flex align-items-stretch ftco-animate">
 					<div class="media block-6 w-100 services d-block text-center">
 						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-vector"></span></div>
@@ -136,25 +158,65 @@
 						</div>
 					</div>      
 				</div>
-			</div>
-			<div class="row wrap-about my-5">
+			</div> -->
+			<div class="row wrap-about my-5" style="margin-top:-100px;">
 				<div class="col-md-8">
 					<div class="row">
 						<div class="col-md-6 order-md-last ftco-animate d-flex">
-							<div class="img w-100" style="background-image: url(images/about.jpg);"></div>
-						</div>
+							<div class="img-container" ontouchstart="rotateImageContainer()">
+								<div class="img-about" style="background-image: url(images/about.jpg);"></div>
+								<div class="overlays"></div>
+								<div class="content">
+								  <!-- <h5 style="color: aliceblue;">  Managing Brokerage Anytime, Anywhere  </h5> -->
+								  <p>
+Empower your Forex business with our specialized CRM and Back-office solution.
+ <!-- Manage your brokerage efficiently from any device, ensuring complete control 
+	
+	and
+  flexibility at your fingertips." -->
+
+  <p><a href="#" class="btn btn-primary mt-4 ">View all projects</a></p>
+
+								  </p>
+<!-- <p>
+								  <h5>
+									Discover More
+									<h5>
+<p class="cont-img">
+	Stay updated with live market prices and dynamic charts. 
+	Execute trades effortlessly with one-click trading options.
+</p>
+									</p> -->
+								  
+								</div>
+							  </div>
+													  </div>
 						<div class="col-md-6 ftco-animate">
 							<div class="text text-md-right">
-								<h3>Welcome to AVO A Personal Porfolio Web Agency</h3>
-								<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+								<h3>Efficient CRM Integration, Swift Setup</h3>
+								<p>Empower your teams with our integrated Client Office application, 
+									combining CRM capabilities tailored for Sales, Back Office, and Management. 
+									Manage your Forex brokerage seamlessly from any device, ensuring swift setup in under
+									a week with customized solutions that align perfectly with your unique business needs </p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 ftco-animate">
 					<div class="text">
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-						<p><a href="#" class="btn btn-primary">View all projects</a></p>
+						<p>
+							<h3>	
+								Effortless Brokerage Launch in Under 7 Days							
+						</h3>
+
+							Experience the swiftest brokerage setup process.
+							 With our specialized CRM solution, your brokerage can be up and running in less than a week.
+							  This fully customized solution is meticulously designed to align seamlessly with your business needs,
+							   complete with built-in Business Intelligence and advanced reporting capabilities.
+
+
+
+							</p>
 					</div>
 				</div>
 			</div>
@@ -163,8 +225,9 @@
 					<div class="services-2 d-flex ftco-animate">
 						<span>01</span>
 						<div class="text">
-							<h3>Search Engine Optimization</h3>
-							<p>Far far away, behind the word mountains</p>
+							<h3>Secure Trading Experience:</h3>
+							<p>Our application prioritizes users' security with encrypted logins,
+								 ensuring confidentiality of sensitive data.</p>
 						</div>
 					</div>
 				</div>
@@ -172,8 +235,9 @@
 					<div class="services-2 d-flex ftco-animate">
 						<span>02</span>
 						<div class="text">
-							<h3>Search Engine Optimization</h3>
-							<p>Far far away, behind the word mountains</p>
+							<h3>Real-time Market Insights:</h3>
+							<p> Access live data and robust analytical tools for well-informed
+								 trading decisions, enhancing your strategy and execution</p>
 						</div>
 					</div>
 				</div>
@@ -181,8 +245,9 @@
 					<div class="services-2 d-flex ftco-animate">
 						<span>03</span>
 						<div class="text">
-							<h3>Search Engine Optimization</h3>
-							<p>Far far away, behind the word mountains</p>
+							<h3>Efficient Trading Solutions: </h3>
+							Our platform simplifies your trading journey with secure orders, automation,
+							 and risk management tools, ensuring seamless and effective trade management.</p>
 						</div>
 					</div>
 				</div>
@@ -201,27 +266,30 @@
 			<div class="row no-gutters">
 				<div class="col-md-12 portfolio-wrap mt-0">
 					<div class="row no-gutters align-items-center">
-						<div class="col-md-5 img" style="background-image: url(images/work-1.jpg);">
+						<div class="col-md-5 img" style="background-image: url(images/phone.jpg);border-radius:20px;">
 							
 						</div>
-						<div class="col-md-7">
-							<div class="text pt-5 pl-0 pl-lg-5 pl-md-4 ftco-animate">
+						<div class="col-md-7" style="margin-top:-150px;">
+							<div class="text pt-1 pl-0 pl-lg-5 pl-md-4 ftco-animate">
 								<div class="px-4 px-lg-4">
 									<div class="desc">
 										<div class="top">
-											<span class="subheading">Web Design</span>
-											<h2 class="mb-2"><a href="work.html">Cassette tape</a></h2>
+											<span class="subheading"></span>
+											<h2 class="mb-2"><a href="work.html">Mobile application
+												apps and more</a></h2>
 										</div>
 										<div class="absolute">
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+											<p>Stay in sync with global markets using Moneyscop's mobile
+												 app; enjoy simplified live aurify trading with user-friendly
+												  interface, real-time rates, news, and international clock for 
+												  effortless trading experience.</p>
 											<div class="icon d-flex align-items-center mb-4">
-												<div class="img" style="background-image: url(images/person_1.jpg);"></div>
+												<img src="./images/apple.png" alt="" class="icon-app">
 												<div class="position pl-3">
-													<h4 class="mb-0">Jamie Jonson</h4>
-													<span>avo.com</span>
+													<img src="./images/playstore.png" alt="" class="icon-app">
 												</div>
 											</div>
-											<p><a href="#" class="custom-btn">View Portfolio</a></p>
+											<p><a href="#" class="custom-btn">learn more about apps</a></p>
 										</div>
 									</div>
 								</div>
@@ -230,9 +298,9 @@
 					</div>
 				</div>
 
-				<div class="col-md-12 portfolio-wrap">
+				<div class="col-md-12 portfolio-wrap mt-5">
 					<div class="row no-gutters align-items-center">
-						<div class="col-md-5 order-md-last img" style="background-image: url(images/work-2.jpg);">
+						<div class="col-md-5 order-md-last img" style="background-image: url(images/lap.jpg);">
 							
 						</div>
 						<div class="col-md-7">
@@ -240,19 +308,20 @@
 								<div class="px-4 px-lg-4">
 									<div class="desc text-md-right">
 										<div class="top">
-											<span class="subheading">Application</span>
-											<h2 class="mb-2"><a href="work.html">Miniwall Clock</a></h2>
+											<h2 class="mb-2"><a href="work.html">Large Displays
+												for Major Traders</a></h2>
 										</div>
 										<div class="absolute">
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-											<div class="d-flex w-100">
-												<div class="icon d-flex align-items-center ml-md-auto mb-4">
-													<div class="img" style="background-image: url(images/person_2.jpg);"></div>
-													<div class="position pl-3 text-left">
-														<h4 class="mb-0">Jamie Jonson</h4>
-														<span>avo.com</span>
-													</div>
-												</div>
+											<p>
+												
+												"We enable the provision of an exceptional experience by presenting 
+												real-time aurify Trade rates using cutting-edge technology and hardware.
+												 Our audience can access and analyze commodities listed by clients, live commodity rates,
+												  aurify trading news and feeds, and international time zones. This solution facilitates a 
+												  quick and efficient understanding of these aspects, making it an invaluable component of your 
+												  marketing strategy. Explore our industry-leading solution today."
+												</p>
+											
 											</div>
 											<p><a href="#" class="custom-btn">View Portfolio</a></p>
 										</div>
@@ -263,9 +332,9 @@
 					</div>
 				</div>
 
-				<div class="col-md-12 portfolio-wrap">
+				<div class="col-md-12 portfolio-wrap mt-5">
 					<div class="row no-gutters align-items-center">
-						<div class="col-md-5 img" style="background-image: url(images/work-3.jpg);">
+						<div class="col-md-5 img" style="background-image: url(images/tv.jpg);">
 							
 						</div>
 						<div class="col-md-7">
@@ -273,19 +342,19 @@
 								<div class="px-4 px-lg-4">
 									<div class="desc">
 										<div class="top">
-											<span class="subheading">UI/UX Design</span>
-											<h2 class="mb-2"><a href="work.html">Avo Portfolio Agency</a></h2>
+											<h2 class="mb-2"><a href="work.html">Live aurify trade
+												Tv screen display</a></h2>
 										</div>
 										<div class="absolute">
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-											<div class="icon d-flex align-items-center mb-4">
-												<div class="img" style="background-image: url(images/person_3.jpg);"></div>
-												<div class="position pl-3">
-													<h4 class="mb-0">Jamie Jonson</h4>
-													<span>avo.com</span>
-												</div>
-											</div>
-											<p><a href="#" class="custom-btn">View Portfolio</a></p>
+											<p>
+												
+												"Here, we create the ultimate experience by displaying aurify Live
+												 Trade rates through cutting-edge technology and hardware. Audiences can swiftly analyze commodities,
+												  live rates, aurify trading news, and an international clock via our live streaming television broadcast 
+												  solution. This solution simplifies comprehension and practically markets itself. Take a tour of our
+												   best-in-industry solution." .</p>
+											
+											<p><a href="#" class="custom-btn">WEblink</a></p>
 										</div>
 									</div>
 								</div>
@@ -293,7 +362,7 @@
 						</div>
 					</div>
 				</div>
-
+<!-- 
 				<div class="col-md-12 portfolio-wrap">
 					<div class="row no-gutters align-items-center">
 						<div class="col-md-5 order-md-last img" style="background-image: url(images/work-4.jpg);">
@@ -388,7 +457,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -408,162 +477,150 @@
 						<div class="item">
 							<div class="testimony-wrap py-4">
 								<div class="text">
-									<span class="fa fa-quote-left"></span>
-									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-										<div class="pl-3">
-											<p class="name">Roger Scott</p>
-											<span class="position">Marketing Manager</span>
-										</div>
-									</div>
+									<h4>Secure Environment:</h4>
+									<p class="mb-4">
+										A protected login process and encrypted data storage guarantee user security. Our app offers
+										 a secure platform for executing orders,
+										including advanced order types, while prioritizing safeguarding financial information.</p>
+									<span class="mb-3"></span>
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="testimony-wrap py-4">
 								<div class="text">
-									<span class="fa fa-quote-left"></span>
-									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-										<div class="pl-3">
-											<p class="name">Roger Scott</p>
-											<span class="position">Marketing Manager</span>
-										</div>
-									</div>
+									<h4>User-Friendly Interface:</h4>
+									<p class="mb-4">
+										Our mobile trading app features an intuitive interface, simplifying 
+										navigation and enabling users to access vital information effortlessly. 
+										Material Kit integration provides pre-made elements and utility classes for
+										 flexibility and customization.</p>
+																</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap py-4">
+								<div class="text">
+									<h4> Live Market Insights:</h4>
+									<p class="mb-4">
+										Traders benefit from real-time market data,
+										 empowering informed decisions. Visual tools and analytical instruments 
+										 aid in evaluating market trends, ensuring strategic trades and maximizing 
+										 profits.
+										&nbsp;<br>&nbsp;<br></p>
+								
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="testimony-wrap py-4">
 								<div class="text">
-									<span class="fa fa-quote-left"></span>
-									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
-										<div class="pl-3">
-											<p class="name">Roger Scott</p>
-											<span class="position">Marketing Manager</span>
-										</div>
-									</div>
+									<h4> Advanced Trading Tools:</h4>
+									<p class="mb-4">
+										Our application supports automated trading and algorithmic trading, allowing users to execute intricate strategies. Efficient
+										 order placement and risk management tools are integrated, ensuring optimal trade execution and profit maximization</p>
+									
 								</div>
 							</div>
 						</div>
-						<div class="item">
-							<div class="testimony-wrap py-4">
-								<div class="text">
-									<span class="fa fa-quote-left"></span>
-									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-										<div class="pl-3">
-											<p class="name">Roger Scott</p>
-											<span class="position">Marketing Manager</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testimony-wrap py-4">
-								<div class="text">
-									<span class="fa fa-quote-left"></span>
-									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-										<div class="pl-3">
-											<p class="name">Roger Scott</p>
-											<span class="position">Marketing Manager</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 			</div>
 
-			<div class="row mt-5">
-				<div class="col-md-12">
-					<div class="intro p-md-4 py-md-5 p-2 rounded img" style="background-image: url(images/bg_1.jpg);">
-						<div class="col-md-6 ftco-animate">
-							<span>Get Started</span>
-							<h2>Fill in the brief and get the project estimate</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<p><a href="#" class="btn btn-primary">Get started</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
+		
+			
+			
 		</div>
 	</section>
 
-	<section class="ftco-section bg-light">
+
+	<div class="row mt-5">
+		<div class="col-md-12">
+			<div class="intro p-md-4 py-md-5 p-2 rounded img d-flex flex-column flex-lg-row align-items-lg-center" style="background-image: url(images/bg_1.jpg);">
+				<div class="col-lg-6 ftco-animate">
+					<span>Convenient Access Anywhere</span>
+					<h2>Mobile Access to Real-Time aurify Rates</h2>
+					<p>"Potential buyers may prefer not to install the app but rather test its functionality first. The QR link we offer helps businesses tackle this challenge and attract a portion of those users from the market."</p>
+					<p><a href="#" class="btn btn-primary">Get started</a></p>
+				</div>
+				<div class="qr-code-container col-lg-6 text-center">
+					<img src="./images/qr-code (17).png" alt="" style="height:150px;">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+
+
+	<section class="ftco-section bg-light" >
 		<div class="container">
-			<div class="row justify-content-center mb-5">
+			<div class="row justify-content-center mb-5"style="margin-top: -60px;" >
 				<div class="col-md-7 heading-section text-center ftco-animate">
-					<h2>Recent Blog</h2>
+					<h3 class="">When should you design your own website <br>
+						while establishing a brokerage firm?</h3>
+						&nbsp;<br>&nbsp;<br>
 				</div>
 			</div>
 			<div class="row d-flex">
 				<div class="col-md-3 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
 						<div class="text">
-							<h3 class="heading mb-3"><a href="#">Amplify your blockchain team</a></h3>
+							<h3 class="heading mb-3 p-3"><a href="#">Social Media Marketing:
+								
+							</a></h3>
 							<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_1.jpg');">
 							</a>
-							<div class="meta mb-3">
-								<div><a href="#">June 01, 2020</a></div>
-								<div><a href="#">Admin</a></div>
-								<div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
-							</div>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+							
+							<p> Targeted Engagement and Amplified Reach
+
+								Our social media campaigns focus on specific audiences, 
+								enhancing brand visibility. We build authentic relationships,
+								 amplify content, and employ data-driven strategies for impactful marketing..</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
 						<div class="text">
-							<h3 class="heading mb-3"><a href="#">Amplify your blockchain team</a></h3>
+							<h3 class="heading mb-3"><a href="services.html">SEO Services: Optimized Visibility and Quality Content</a></h3>
 							<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_2.jpg');">
 							</a>
-							<div class="meta mb-3">
-								<div><a href="#">June 01, 2020</a></div>
-								<div><a href="#">Admin</a></div>
-								<div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
-							</div>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+							
+							<p>In SEO, we optimize websites with strategic keywords and technical enhancements. Quality content creation and link building improve search engine ranking and online visibility.
+
+								.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
 						<div class="text">
-							<h3 class="heading mb-3"><a href="#">Amplify your blockchain team</a></h3>
+							<h3 class="heading mb-3"><a href="#">Data-Driven Insights and Analytics: Informed Decision Making</a></h3>
 							<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_3.jpg');">
 							</a>
-							<div class="meta mb-3">
-								<div><a href="#">June 01, 2020</a></div>
-								<div><a href="#">Admin</a></div>
-								<div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
-							</div>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+							
+							<p>
+
+								Our approach incorporates data analytics, providing valuable insights i
+								nto campaign performance. By utilizing data-driven strategies, we refine 
+								marketing efforts, ensuring maximum ROI and effective outcomes.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
 						<div class="text">
-							<h3 class="heading mb-3"><a href="#">Amplify your blockchain team</a></h3>
+							<h3 class="heading mb-3"><a href="#">E-commerce Solutions: User-Friendly Shopping Experience</a></h3>
 							<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_4.jpg');">
 							</a>
-							<div class="meta mb-3">
-								<div><a href="#">June 01, 2020</a></div>
-								<div><a href="#">Admin</a></div>
-								<div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
-							</div>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+							
+							<p>
+
+								We create intuitive online stores with secure payment gateways.
+								 Mobile optimization ensures seamless shopping, enhancing satisfaction 
+								 and driving conversions.</p>
 						</div>
 					</div>
 				</div>
