@@ -1,1 +1,2 @@
-# bullion-web2
+# Aurify website
+https://tecnavis.github.io/Aurify/
