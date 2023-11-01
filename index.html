@@ -29,6 +29,18 @@
     padding: 20px;
 }
 
+/* Add this CSS to your stylesheet */
+.desc {
+    overflow: hidden; /* This will hide any content that overflows */
+}
+
+.desc p {
+    max-height: 150px; /* Set a maximum height for the paragraph */
+    overflow: hidden; /* Hide any overflow */
+    text-overflow: ellipsis; /* Add ellipsis (...) to indicate text overflow */
+    white-space: nowrap; /* Prevent the text from wrapping to the next line */
+}
+
 	</style>
 </head>
 <body>
